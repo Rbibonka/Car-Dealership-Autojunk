@@ -80,6 +80,7 @@ namespace Car_Dealership_Autojunk
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "SettingConnection";
             this.Text = "Настройка подключения";
             this.Load += new System.EventHandler(this.SettingConnection_Load);

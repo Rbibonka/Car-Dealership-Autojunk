@@ -339,7 +339,7 @@ namespace Car_Dealership_Autojunk
         private async void button6_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox27.Text) && !string.IsNullOrEmpty(textBox28.Text) && !string.IsNullOrEmpty(textBox29.Text)
-            && !string.IsNullOrEmpty(textBox30.Text) && !string.IsNullOrEmpty(textBox26.Text))
+            && !string.IsNullOrEmpty(textBox30.Text) && !string.IsNullOrEmpty(textBox31.Text) && !string.IsNullOrEmpty(textBox32.Text) && !string.IsNullOrEmpty(textBox33.Text) && !string.IsNullOrEmpty(textBox34.Text))
             {
                 SqlCommand command = new SqlCommand("UPDATE OrderCar SET BuyerName = @Name, BuyerSecondName = @SecondName, PhoneNumber = @Phone, OrderPrice = @Price, " +
                 "CarModel = @Model, CarColor = @Color, Quantity = @Count WHERE Id = @Id", _sqlConnection);
